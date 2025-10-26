@@ -31,7 +31,7 @@ with col1:
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Modelo entrenado")
- image = Image.open('7.jpg')
+ image = Image.open('7.png')
  st.image(image, width=200)
  st.write("En el siguiente enlace puedes ver como funcionan IAS generativas de texto como chatgpt") 
  url = "https://matthewtdfesp.streamlit.app"
@@ -39,7 +39,7 @@ with col1:
 
 with col2: 
  st.subheader("Traductor")
- image = Image.open('2.jpg')
+ image = Image.open('2.png')
  st.image(image, width=200)
  st.write("En esta aplicación puedes hablar y generar un audio con traducción en multiples idiomas.") 
  url = "https://traductor-matthew.streamlit.app/"
@@ -53,7 +53,7 @@ with col2:
  st.write(f"Datos: [Enlace]({url})")
 
  st.subheader("Piedra, papel o tijera")
- image = Image.open('8.jpg')
+ image = Image.open('8.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace podrás jugar piedra papel o tijeras con la IA") 
  url = "https://tmmatthew.streamlit.app/"
@@ -69,14 +69,14 @@ with col3:
  st.write(f"RAG: [Enlace]({url})")
 
  st.subheader("Recomendador de Imagenes")
- image = Image.open('6.jpg')
+ image = Image.open('6.png')
  st.image(image, width=200)
  st.write("Agrega una imagen de tu videojuego favorito y la IA se encargará de recomnedarte experiencias parecidas") 
  url = "https://visionapp-matt.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
  
  st.subheader("Controlar robot con voz")
- image = Image.open('9.jpg')
+ image = Image.open('9.png')
  st.image(image, width=200)
  st.write("Con comandos de voz puedes controlar elementos del mundo real") 
  url = "https://ctrlvoice-matthew.streamlit.app/"  
