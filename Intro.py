@@ -27,7 +27,7 @@ with col1:
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = ""
+ url = "https://visionapp-matt.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
