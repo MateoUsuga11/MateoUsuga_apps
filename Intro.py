@@ -30,10 +30,10 @@ with col1:
  url = "https://yolov5matthew.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
+ st.subheader("Modelo entrenado")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
+ st.write("En el siguiente enlace puedes ver como funcionan IAS generativas de texto como chatgpt") 
  url = "https://matthewtdfesp.streamlit.app"
  st.write(f"YOLO: [Enlace]({url})")
 
@@ -48,14 +48,14 @@ with col2:
  st.subheader("Creador de imagenes basado en dibujos")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
+ st.write("Aquí tienes un tablero para dibujar lo que quieras y la ia mejorará tu dibujo en un estilo que elijas") 
  url = "https://drawrecogmatt.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
+ st.subheader("Piedra, papel o tijera")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
+ st.write("En la siguiente enlace podrás jugar piedra papel o tijeras con la IA") 
  url = "https://tmmatthew.streamlit.app/"
  st.write(f"Transcriptor: [Enlace]({url})")
 
@@ -68,17 +68,17 @@ with col3:
  url = "https://chatpdfunity.streamlit.app/"
  st.write(f"RAG: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
+ st.subheader("Recomendador de Imagenes")
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
+ st.write("Agrega una imagen de tu videojuego favorito y la IA se encargará de recomnedarte experiencias parecidas") 
  url = "https://visionapp-matt.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
+ st.subheader("Controlar robot con voz")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
+ st.write("Con comandos de voz puedes controlar elementos del mundo real") 
  url = "https://ctrlvoice-matthew.streamlit.app/"  
  st.write(f"Vision: [Enlace]({url})")
 
