@@ -16,10 +16,10 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Conversión de texto a voz")
+ st.subheader("Cuenta cuentos")
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
- st.write("En esta aplicación tenemos una IA que puede leer cuentos con diferentes voces.") 
+ st.write("En esta aplicación tenemos una IA que puede leer cuentos con diferentes voces y velocidades.") 
  url = "https://traductorcongtts.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
@@ -38,14 +38,14 @@ with col1:
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
+ st.subheader("Traductor")
  image = Image.open('OIG8.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
+ st.write("En esta aplicación puedes hablar y generar un audio con traducción en multiples idiomas.") 
  url = "https://traductor-matthew.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
+ st.subheader("Creador de imagenes basado en dibujos")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
  st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
@@ -61,10 +61,10 @@ with col2:
 
 
 with col3: 
- st.subheader("Generación en Contexto")
+ st.subheader("Apoyo de aprendizaje en unity")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
+ st.write("Esta IA recibe un documento de unity para apoyar el aprendizaje de este software") 
  url = "https://chatpdfunity.streamlit.app/"
  st.write(f"RAG: [Enlace]({url})")
 
