@@ -27,14 +27,14 @@ with col1:
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
+ url = "https://traductor-matthew.streamlit.app"
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://traductor-matthew.streamlit.app"
+ url = ""
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
