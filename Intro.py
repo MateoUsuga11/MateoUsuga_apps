@@ -27,14 +27,14 @@ with col1:
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://visionapp-matt.streamlit.app/"
+ url = "https://yolov5matthew.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = ""
+ url = "https://matthewtdfesp.streamlit.app"
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
@@ -49,7 +49,7 @@ with col2:
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
  st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://asistpy-csv.streamlit.app/"
+ url = "https://drawrecogmatt.streamlit.app/"
  st.write(f"Datos: [Enlace]({url})")
 
  st.subheader("Trasnscriptor Audio y Video")
@@ -72,7 +72,7 @@ with col3:
  image = Image.open('OIG4.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
+ url = "https://visionapp-matt.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
  
  st.subheader("Sistema Ciberfísico")
