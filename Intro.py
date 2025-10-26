@@ -27,7 +27,7 @@ with col1:
  image = Image.open('txt_to_audio.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://traductor-matthew.streamlit.app"
+ url = ""
  st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
@@ -42,7 +42,7 @@ with col2:
  image = Image.open('OIG8.jpg')
  st.image(image, width=200)
  st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductor-ab0sp9f6fi.streamlit.app/"
+ url = "https://traductor-matthew.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
